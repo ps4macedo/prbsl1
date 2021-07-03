@@ -1,9 +1,6 @@
 function jailbreak(){
 var ropchain_array = new Uint32Array(235222);
 var ropchain = read_ptr_at(addrof(ropchain_array)+0x10);
-
-alert("\nNa tentativa de obter uma maior taxa de sucesso, você pode aguardar 2 minutos\nantes de clicar no botão \"OK\". (aqui pode ocorrer kernel panic)");
-
 var ropchain_offset = 2;
 function set_gadget(val)
 {
